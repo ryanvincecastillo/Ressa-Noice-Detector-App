@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Ressa sleeping face">
+  <circle cx="100" cy="100" r="86" fill="#f6dfc6" />
+  <path d="M126 36l-12 7 2-14z" fill="#f58db3" />
+  <path d="M146 36l12 7-14 2z" fill="#f58db3" />
+  <circle cx="136" cy="40" r="7" fill="#f06ea2" />
+  <path d="M62 84c8-7 18-7 26 0" stroke="#304861" stroke-width="5" fill="none" stroke-linecap="round" />
+  <path d="M112 84c8-7 18-7 26 0" stroke="#304861" stroke-width="5" fill="none" stroke-linecap="round" />
+  <path d="M69 108c4 4 10 4 14 0" stroke="#304861" stroke-width="5" fill="none" stroke-linecap="round" />
+  <path d="M117 108c4 4 10 4 14 0" stroke="#304861" stroke-width="5" fill="none" stroke-linecap="round" />
+  <path d="M77 138c12 7 34 7 46 0" stroke="#f28a74" stroke-width="6" fill="none" stroke-linecap="round" />
+  <circle cx="52" cy="120" r="10" fill="#efb9a8" opacity="0.7" />
+  <circle cx="148" cy="120" r="10" fill="#efb9a8" opacity="0.7" />
+  <text x="150" y="64" font-family="Trebuchet MS, sans-serif" font-size="13" fill="#7d93a8">Z</text>
+  <text x="162" y="54" font-family="Trebuchet MS, sans-serif" font-size="9" fill="#95aabd">Z</text>
+</svg>

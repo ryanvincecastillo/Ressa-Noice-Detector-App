@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Ressa angry face">
+  <circle cx="100" cy="100" r="86" fill="#f6dfc6" />
+  <path d="M126 36l-12 7 2-14z" fill="#f58db3" />
+  <path d="M146 36l12 7-14 2z" fill="#f58db3" />
+  <circle cx="136" cy="40" r="7" fill="#f06ea2" />
+  <path d="M58 90c11-12 21-14 31-8" stroke="#304861" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M111 82c10-6 20-4 31 8" stroke="#304861" stroke-width="6" fill="none" stroke-linecap="round" />
+  <ellipse cx="76" cy="108" rx="7.5" ry="6.5" fill="#304861" />
+  <ellipse cx="124" cy="108" rx="7.5" ry="6.5" fill="#304861" />
+  <path d="M79 143c10-12 32-12 42 0" stroke="#ce4e4e" stroke-width="7" fill="none" stroke-linecap="round" />
+  <circle cx="52" cy="120" r="10" fill="#f39a9a" opacity="0.8" />
+  <circle cx="148" cy="120" r="10" fill="#f39a9a" opacity="0.8" />
+</svg>
