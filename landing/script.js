@@ -1,7 +1,7 @@
 /* Download detection */
 const DOWNLOADS = {
-  mac: 'https://github.com/ryanvincecastillo/Ressa-Noice-Detector-App/releases/latest/download/Ressa%20Noise%20Detector%20App-0.1.0-arm64.dmg',
-  win: 'https://github.com/ryanvincecastillo/Ressa-Noice-Detector-App/releases/latest/download/Ressa%20Noise%20Detector%20App%20Setup%200.1.0.exe'
+  mac: 'https://github.com/ryanvincecastillo/Ressa-Noice-Detector-App/releases/latest/download/Ressa.Noise.Detector.App-0.1.0-arm64.dmg',
+  win: 'https://github.com/ryanvincecastillo/Ressa-Noice-Detector-App/releases/latest/download/Ressa.Noise.Detector.App.Setup.0.1.0.exe'
 };
 
 const ICONS = {
