@@ -44,6 +44,7 @@ module.exports = [
       sourceType: 'script',
       globals: {
         document: 'readonly',
+        fetch: 'readonly',
         IntersectionObserver: 'readonly',
         navigator: 'readonly',
         requestAnimationFrame: 'readonly',

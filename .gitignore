@@ -6,3 +6,6 @@ dist-electron/
 .vscode/
 .idea/
 coverage/
+
+# Release binaries
+releases/download/
