@@ -28,8 +28,26 @@ module.exports = [
       ecmaVersion: 'latest',
       sourceType: 'script',
       globals: {
+        console: 'readonly',
         process: 'readonly',
         require: 'readonly'
+      }
+    },
+    rules: {
+      'no-undef': 'off'
+    }
+  },
+  {
+    files: ['landing/**/*.js'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'script',
+      globals: {
+        document: 'readonly',
+        IntersectionObserver: 'readonly',
+        navigator: 'readonly',
+        requestAnimationFrame: 'readonly',
+        window: 'readonly'
       }
     },
     rules: {

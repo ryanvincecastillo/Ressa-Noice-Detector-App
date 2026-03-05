@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./assets/ressa-calm.svg" />
+    <title>Ressa Noise Detector | Smart Office Noise Intelligence</title>
+    <meta
+      name="description"
+      content="Ressa Noise Detector delivers realtime office noise intelligence, daily summaries, and Teams status updates without recording audio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <div class="bg-orb orb-c"></div>
+
+    <header class="site-header" id="site-header">
+      <a class="logo-wrap" href="#">
+        <img src="./assets/ressa-calm.svg" alt="Ressa logo" class="logo" />
+        <span>Ressa Noise Detector</span>
+      </a>
+      <nav class="top-nav">
+        <a href="#preview">Preview</a>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+      <a href="#deploy" class="btn btn-ghost">Deploy Now</a>
+    </header>
+
+    <main>
+      <section class="section hero">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Production-Ready Office Tool</p>
+          <h1 class="reveal reveal-delay-1">Realtime noise status for modern teams.</h1>
+          <p class="lead reveal reveal-delay-2">
+            Inspired by real call-floor challenges, Ressa gives your office a clear live noise signal,
+            local reporting, and Teams channel updates so meetings stay focused.
+          </p>
+          <div class="download-row reveal reveal-delay-3">
+            <a id="download-btn" href="#" class="btn btn-primary"><svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg> Download App</a>
+            <a id="download-alt" href="#" class="btn btn-secondary"><svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 12V6.75l6-1.32v6.48L3 12zm6.73-.07l8.27-.9V3.71l-8.27 1.28v6.94zm8.27 1.07l-8.27.9v6.81l8.27 1.28V13zm-15 .64L3 17.25l6 1.32v-6.5l-6 .57z"/></svg> Other Platform</a>
+          </div>
+          <p id="download-note" class="download-note reveal reveal-delay-3">Detecting your platform...</p>
+          <div class="chip-row reveal reveal-delay-4">
+            <span class="chip">Windows + macOS</span>
+            <span class="chip">Daily Summaries</span>
+            <span class="chip">Teams Webhook Posting</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="screen-main">
+            <img src="./assets/MonitoringScreen.png" alt="Ressa monitoring screen" />
+          </div>
+          <div class="screen-mini">
+            <img src="./assets/WakeScreen.png" alt="Ressa wake screen" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section stat-band reveal">
+        <article>
+          <h3>Live Status</h3>
+          <p>See noise level and mood feedback instantly during office operations.</p>
+        </article>
+        <article>
+          <h3>Daily Insights</h3>
+          <p>Track avg noise, peak windows, and loud-time trends for environment quality.</p>
+        </article>
+        <article>
+          <h3>Actionable Alerts</h3>
+          <p>Share noise condition updates directly to Teams for fast coordination.</p>
+        </article>
+      </section>
+
+      <section id="preview" class="section preview-grid">
+        <article class="preview-card reveal">
+          <h3>Wake Experience</h3>
+          <p>Friendly startup flow with privacy messaging and one-click mic enablement.</p>
+          <img src="./assets/WakeScreen.png" alt="Wake screen preview" />
+        </article>
+        <article class="preview-card reveal reveal-delay-1">
+          <h3>Monitoring Experience</h3>
+          <p>Portrait-first interface focused on Ressa, compact chart, and quick settings.</p>
+          <img src="./assets/MonitoringScreen.png" alt="Monitoring screen preview" />
+        </article>
+      </section>
+
+      <section id="how-it-works" class="section how-it-works reveal">
+        <div class="section-header">
+          <p class="eyebrow">How It Works</p>
+          <h2>Three steps to a quieter office</h2>
+        </div>
+        <div class="steps-row">
+          <div class="step reveal reveal-delay-1">
+            <div class="step-number">1</div>
+            <h3>Install & Launch</h3>
+            <p>Download for macOS or Windows. Ressa opens in a compact portrait window ready to go.</p>
+          </div>
+          <div class="step reveal reveal-delay-2">
+            <div class="step-number">2</div>
+            <h3>Monitor in Realtime</h3>
+            <p>Click Ressa to wake her. She listens to ambient levels and shows live feedback with mood expressions.</p>
+          </div>
+          <div class="step reveal reveal-delay-3">
+            <div class="step-number">3</div>
+            <h3>Report & Share</h3>
+            <p>Daily summaries and Teams webhook posts keep your team informed without any manual effort.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="section-header reveal">
+          <p class="eyebrow">Features</p>
+          <h2>Everything you need for office noise awareness</h2>
+          <p>Built for facilities teams, office managers, and HR departments who care about work environment quality.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature reveal">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-6M6 20V10M18 20V4"/></svg>
+            </div>
+            <h3>Realtime Noise Intelligence</h3>
+            <p>Live meter, chart history, and expression-based signal for immediate awareness.</p>
+          </article>
+          <article class="feature reveal reveal-delay-1">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3>Office Reporting Layer</h3>
+            <p>Derived daily metrics for peaks, averages, and loud durations by timeslot.</p>
+          </article>
+          <article class="feature reveal reveal-delay-2">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+            <h3>Microsoft Teams Updates</h3>
+            <p>Send summary status to Teams channels via webhook for HR/ops visibility.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+            </div>
+            <h3>Adaptive Threshold Controls</h3>
+            <p>Fine-tune sensitivity and mood boundaries to match your workspace profile.</p>
+          </article>
+          <article class="feature reveal reveal-delay-1">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+            </div>
+            <h3>Auto Sleep / Wake Flow</h3>
+            <p>Smart idle behavior returns to wake mode when monitoring is inactive.</p>
+          </article>
+          <article class="feature reveal reveal-delay-2">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Cross-Platform Delivery</h3>
+            <p>Installer-ready output for macOS and Windows with branded app icons.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="privacy" class="section split reveal">
+        <div>
+          <p class="eyebrow">Privacy-First Foundation</p>
+          <h2>We measure noise level, not conversations.</h2>
+          <p>
+            Ressa computes loudness from microphone input in memory and uses only aggregate metrics for
+            reporting workflows. No data ever leaves your machine unless you configure a Teams webhook.
+          </p>
+        </div>
+        <ul class="privacy-list">
+          <li>No audio recording</li>
+          <li>No transcription</li>
+          <li>No raw voice upload</li>
+          <li>Local-first derived metrics</li>
+          <li>Built for environment awareness, not employee surveillance</li>
+        </ul>
+      </section>
+
+      <section id="deploy" class="section deploy-card reveal">
+        <h2>Deploy Ressa across your office floor</h2>
+        <p>
+          Improve meeting quality, reduce noisy intervals, and provide consistent noise visibility across teams.
+        </p>
+        <div class="hero-cta-row center" style="position: relative;">
+          <a href="mailto:hello@ressaapp.local?subject=Ressa%20Deployment" class="btn btn-primary">Request Deployment Guide</a>
+          <a href="./../PACKAGING.md" class="btn btn-secondary">Packaging Checklist</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">Ressa Noise Detector &middot; Smart Noise Awareness for Productive Offices</footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

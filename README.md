@@ -32,7 +32,11 @@ No audio is recorded, saved, or transmitted.
    ```bash
    npm run lint
    ```
-5. Package installer/app bundle:
+5. Generate app icons (macOS/Windows):
+   ```bash
+   npm run generate:icons
+   ```
+6. Package installer/app bundle:
    ```bash
    npm run package
    ```
@@ -78,3 +82,6 @@ Then restart monitoring from inside the app.
   - Quiet: `0-35`
   - Medium: `36-65`
   - Loud: `66-100`
+
+
+See `PACKAGING.md` for packaging QA and delivery checklist details.
